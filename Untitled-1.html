@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width", initial-scale="1.0">
+        <title>Blog Pribadi</title>
+        <link rel="stylesheet" href="ayam.css">
+    </head>
+    <body>
+        <!--header dan navigasi-->
+        <header>
+            <h1>Blog Pribadi saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang saya</a></li>
+                    <li><a href="#kontak">Kontak Saya</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- bagian artikel -->
+         <section id="artikel">
+            <div class="artikel-item" data-category="teknologi">
+                <img src="IMG_20230417_220457-643x1024.jpg" alt="Artikel 1">
+                <h2>Artikel Teknologi</h2>
+                <p class="tanggal">Di publikasikan pada tanggal: 1999-10-11</p>
+                <p class="ringkasan">Ini salah satu ringkasan dari artikel</p> 
+            </div>
+            <div class="artikel-item" data-category="gaya-hidup">
+                <img src="OIP.jpg" alt="Artikel 2">
+                <h2>Artikel Gaya Hidup</h2>
+                <p class="tanggal">Di publikasikan pada tanggal: 2010-11-11</p>
+                <p class="ringkasan">Ini salah satu ringkasan dari artikel</p>
+            </div>
+         </section>
+         <!-- formulir kontak-->
+          <section id="kontak">
+            <h2>Kontak Saya</h2>
+            <form action="mailto:bintangsulistio5@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="subjek">Subjek:</label>
+                <input type="text" id="subjek" name="subjek" required><br>
+                <label for="text">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="3" cols="55"></textarea>
+                <input type="submit" value="kirim">
+            </form>
+          </section>
+          <script src="asa.java"></script>
+    </body>
+</html> 
